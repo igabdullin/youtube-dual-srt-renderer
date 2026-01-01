@@ -1,6 +1,8 @@
 # youtube-dual-srt-renderer
 Firefox extension for displaying two custom SRT subtitle tracks simultaneously on YouTube videos with time window preview (shows current and upcoming subtitles)
 
+![Demo](work_example.jpeg)
+
 ## Возможности
 
 - Отображение в видео пользовательских субтитров в формате **.srt**
