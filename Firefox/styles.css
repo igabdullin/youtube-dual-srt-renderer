@@ -1,0 +1,13 @@
+#custom-srt-button svg {
+  width: 100%;
+  height: 100%;
+}
+
+#custom-srt-button:hover {
+  opacity: 0.8;
+}
+
+#custom-subtitle {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}

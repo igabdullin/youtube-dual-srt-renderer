@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Youtube Subs Test",
+  "version": "1.1",
+  "permissions": ["scripting","activeTab"],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ]
+}
